@@ -42,7 +42,8 @@ const Layout = ({ children }) => {
         © {new Date().getFullYear()}, Built by Jack Zhang,
         {`  `}
         <a
-          target='_blank'
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://github.com/Jacknh"
           css={css`
             color: rgba(29, 161, 242, 1);
@@ -52,7 +53,8 @@ const Layout = ({ children }) => {
         </a>
         {` , `}
         <a
-          target='_blank'
+          target="_blank"
+          rel="noopener noreferrer"
           href="https://twitter.com/Jacknh418"
           css={css`
             color: rgba(29, 161, 242, 1);
