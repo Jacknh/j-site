@@ -10,7 +10,7 @@ export default function Template({
   data, // this prop will be injected by the GraphQL query below.
 }) {
   const { allMarkdownRemark } = data // data.markdownRemark holds your post data
-  const { edges } = allMarkdownRemark;
+  const { edges } = allMarkdownRemark
 
   const Posts = edges
     .filter(
@@ -22,7 +22,13 @@ export default function Template({
   return (
     <Layout>
       <SEO title="Blog List" />
-      {Posts}
+      {Posts.length > 0 ? (
+        <div css={css`
+          padding-top: 20px;
+        `}>{Posts}</div>
+      ) : (
+        <div>Waiting for the first post comes out...</div>
+      )}
     </Layout>
   )
 }
@@ -33,7 +39,7 @@ export const pageQuery = graphql`
       edges {
         node {
           id
-          excerpt(pruneLength: 250)
+          excerpt(pruneLength: 150)
           frontmatter {
             date(formatString: "MMMM DD, YYYY")
             path

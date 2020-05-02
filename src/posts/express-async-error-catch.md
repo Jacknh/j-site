@@ -1,5 +1,5 @@
 ---
-title: Express Async Error Catch
+title: Express async error catch
 date: 2020-04-02
 path: /tech/express-async-error-catch
 cat: tech

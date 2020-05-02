@@ -41,17 +41,35 @@ const Header = ({ siteTitle }) => (
             align-self: center;
             margin-bottom: 0;
             margin-right: 10px;
+            cursor: pointer;
           `}
         >
-          Home
+          <Link
+            to="/"
+            css={css`
+              text-decoration: none;
+              color: #fff;
+            `}
+          >
+            Home
+          </Link>
         </h3>
         <h3
           css={css`
             align-self: center;
             margin-bottom: 0;
+            cursor: pointer;
           `}
         >
-          About
+          <Link
+            to="/about"
+            css={css`
+              text-decoration: none;
+              color: #fff;
+            `}
+          >
+            About
+          </Link>
         </h3>
       </div>
     </div>
