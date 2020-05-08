@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
           color: #fff;
           font-size: 14px;
           text-align: center;
-          padding-top: 10px;
+          padding-top: 12px;
         `}
       >
         © {new Date().getFullYear()}, Built by Jack Zhang,

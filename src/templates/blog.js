@@ -27,13 +27,13 @@ export default function Template({
         />
       </Link>
       <div css={css`
-        padding-top: 20px;
+        padding: 20px;
       `}>
         <h1
           css={css`
             font-size: 38px;
             font-weight: 800;
-            margin-bottom: 0;
+            margin-bottom: 3px;
           `}
         >
           {frontmatter.title}

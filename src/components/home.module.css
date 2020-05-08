@@ -8,7 +8,7 @@
 }
 .item {
   margin: 10px;
-  min-height: 200px;
+  min-height: 180px;
   color: white;
   text-decoration: none;
   font-size: 40px;
@@ -32,4 +32,15 @@
 .thinking {
   background: url(../images/thinking.jpg);
   background-size: cover;
+}
+
+@media screen and (max-width: 375px) {
+  .wrapper {
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: auto;
+    min-height: inherit;
+    justify-content: space-evenly;
+    align-content: space-around;
+  }
 }

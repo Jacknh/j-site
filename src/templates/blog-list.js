@@ -24,7 +24,7 @@ export default function Template({
       <SEO title="Blog List" />
       {Posts.length > 0 ? (
         <div css={css`
-          padding-top: 20px;
+          padding: 20px;
         `}>{Posts}</div>
       ) : (
         <div>Waiting for the first post comes out...</div>
