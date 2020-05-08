@@ -16,4 +16,4 @@ I still remember my math teacher in college once said to us: If everyone could l
 
 Well I know I grumbled a lot, without too much meanings there, just some emotions to express out. Anyways, May I find a way out soon.
 
-![life](../images/pond.jpg "a pond in chuzhouyingcheng")
+![pond](../images/pond.jpg "a pond in chuzhouyingcheng")
